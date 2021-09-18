@@ -1,0 +1,25 @@
+player:
+  info:
+    lastSeenAs: Darelli
+homes:
+  pillagersfly:
+    x: 3384
+    y: 175
+    z: 2694
+    yaw: 156.83472
+    pitch: 17.183636
+    world: world
+  llamas:
+    x: 4863
+    y: 114
+    z: 2373
+    yaw: 199.94965
+    pitch: 23.850054
+    world: world
+  '1':
+    x: 5349
+    y: 88
+    z: 1705
+    yaw: 62.783142
+    pitch: 2.9998841
+    world: world

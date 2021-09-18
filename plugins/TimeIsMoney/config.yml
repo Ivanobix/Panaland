@@ -1,0 +1,94 @@
+configuration-version: 12
+
+debug-log: false
+
+# You can disable the plugin's payout feature in certain worlds
+disabled_in_worlds:
+- "creative_world"
+
+# You can define if the player gets a payout whether player is afk or not.
+# the permission tim.afkbypass would avoid this for certain user or groups.
+afk_payout: true
+# If afk payout is enabled, what percent should be paid out?
+afk_payout_percent: 10
+# Will use essential's AFK feature if available
+afk_use_essentials: false
+
+display-messages-in-chat: true
+display-messages-in-actionbar: true
+display-messages-in-actionbar-time: 10
+give_money_every_second: 600
+store-money-in-bank: false
+
+# Define if multiple accounts should get payed with the same ip-address. You may disable this if your players are using multiple accounts per ip.
+allow-multiple-accounts: false
+# Option to increase the maximal amount of players of the same IP getting a payout. Only applies when allow-multiple-accounts is set to false.
+max-multiple-accounts: 1
+
+# Optional: Define a server bank account for withdrawing money from that account for the payouts instead of creating money out of nowhere
+bank-account: ""
+
+# Payouts will be delivered by "chance" instead "permission".
+choose-payout-by-chance: false
+
+# Enable this if you want to add up all lower payouts to the final payout (only relevant when using permissions)
+merge-payouts: false
+
+# You can add as many payouts you want. You only can choose between "permission"
+# and "chance", not both.
+payouts:
+  1:
+    payout_amount: 250
+    max_payout_per_day: 100000
+    permission:
+
+# Translations
+message: "&aYou earned &c%money% &afor 10 minutes online time!"
+message_payoutlimit_reached: "&cYou have reached the payout limit today. You earned 0$"
+message_afk: "&cYou havn't earned money because you were afk!"
+message_afk_payout: "&6You earned &c%money% (%percent%% of normal payout) &6for 10 minutes online time while afk!"
+message_multiple_ips: "&cYou havn't earned money because you're playing with multiple accounts!"
+message_actionbar: "&aYou earned &c%money% &afor 10 minutes online time!"
+message_payoutlimit_reached_actionbar: "&cYou have reached the payout limit today. You got 0$"
+message_afk_actionbar: "&cYou haven't earned money because you were afk!"
+message_afk_actionbar_payout: "&6You earned &c%money% &6for 10 minutes online time while afk!"
+message_atm_noperms: "&cYou don't have the permission to use ATM's!"
+message_atm_nomoneyinbank: "&cYou don't have enough money in bank!"
+message_atm_nomoney: "&cYou don't have enough money!"
+message_atm_nopermbuild: "&cYou don't have permissions to build ATM's (tim.atm.place)"
+message_atm_created: "&2ATM created! (You can also write something in the Lines 2-4)"
+message_atm_withdrew: "&cTook &a%s &cfrom your account."
+message_atm_deposited: "&2Added &a%s &2to your account."
+
+# Set this to true to send the payout limit reached message only one time once reached
+display-payout-limit-reached-message-once: false
+
+# ATM -> Place down a sign with [atm] on the first line to use it!
+enable_atm: false
+# The label that is drawn on the sign upon placement (keep in mind that ATM signs are tracked using this tag, so choose something "unique")
+atm_sign_label: "&cATM"
+atm_worth_gradation:
+  - 10.0
+  - 100.0
+  - 1000.0
+  - 10000.0
+
+# You can seperate the ATM balances for different worlds by group them. Just set group-atms to true and write atm_groups as described below.
+# Note: Existing bank accounts will be removed when enabling this feature. 
+group-atms: false
+# Example groups for seperating all worlds:
+#atm_groups:
+#  group1:
+#  - world
+#  group2:
+#  - world_nether
+#  group3:
+#   - world_the_end
+# Example groups for seperating skyblock worlds and survival worlds:
+#atm_groups:
+#  group1:
+#  - ASkyblock_world
+#  - Askyblock_spawn
+#  group2:
+#  - survival_world
+#  - farm_world

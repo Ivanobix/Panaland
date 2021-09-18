@@ -1,0 +1,124 @@
+atm:
+  ==: de.Linus122.net.xyz.spaceio.spacegui.SpaceGUI
+  background:
+    ==: de.Linus122.net.xyz.spaceio.spaceitem.SpaceItem
+    label: null
+    itemstack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GRAY_STAINED_GLASS_PANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"text":" "}],"text":""}'
+  title: §cATM
+  rows: 3
+  items:
+    16:
+      ==: de.Linus122.net.xyz.spaceio.spaceitem.SpaceItem
+      label: deposit-2
+      itemstack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLD_INGOT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Deposit
+            "},{"italic":false,"color":"green","text":"%s"}],"text":""}'
+    17:
+      ==: de.Linus122.net.xyz.spaceio.spaceitem.SpaceItem
+      label: deposit-3
+      itemstack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Deposit
+            "},{"italic":false,"color":"green","text":"%s"}],"text":""}'
+    9:
+      ==: de.Linus122.net.xyz.spaceio.spaceitem.SpaceItem
+      label: witdraw-3
+      itemstack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Withdraw
+            "},{"italic":false,"color":"green","text":"%s"}],"text":""}'
+    10:
+      ==: de.Linus122.net.xyz.spaceio.spaceitem.SpaceItem
+      label: witdraw-2
+      itemstack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLD_INGOT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Withdraw
+            "},{"italic":false,"color":"green","text":"%s"}],"text":""}'
+    11:
+      ==: de.Linus122.net.xyz.spaceio.spaceitem.SpaceItem
+      label: witdraw-1
+      itemstack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_INGOT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Withdraw
+            "},{"italic":false,"color":"green","text":"%s"}],"text":""}'
+    12:
+      ==: de.Linus122.net.xyz.spaceio.spaceitem.SpaceItem
+      label: witdraw-0
+      itemstack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BRICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Withdraw
+            "},{"italic":false,"color":"green","text":"%s"}],"text":""}'
+    13:
+      ==: de.Linus122.net.xyz.spaceio.spaceitem.SpaceItem
+      label: balance
+      itemstack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLD_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Balance
+            "},{"italic":false,"color":"green","text":"%s"}],"text":""}'
+    14:
+      ==: de.Linus122.net.xyz.spaceio.spaceitem.SpaceItem
+      label: deposit-0
+      itemstack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BRICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Deposit
+            "},{"italic":false,"color":"green","text":"%s"}],"text":""}'
+    15:
+      ==: de.Linus122.net.xyz.spaceio.spaceitem.SpaceItem
+      label: deposit-1
+      itemstack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_INGOT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Deposit
+            "},{"italic":false,"color":"green","text":"%s"}],"text":""}'

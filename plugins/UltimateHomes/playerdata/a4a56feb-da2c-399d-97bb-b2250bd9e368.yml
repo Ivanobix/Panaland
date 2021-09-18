@@ -1,0 +1,46 @@
+player:
+  info:
+    lastSeenAs: n4ik0_
+homes:
+  home:
+    x: 1744
+    y: 63
+    z: 447
+    yaw: -176.70546
+    pitch: 26.32136
+    world: world
+  casa:
+    x: 1744
+    y: 63
+    z: 447
+    yaw: 181.33533
+    pitch: 47.12518
+    world: world
+  trader:
+    x: 4802
+    y: 65
+    z: 5705
+    yaw: 356.3152
+    pitch: 15.52454
+    world: world
+  portalneth:
+    x: 227
+    y: 86
+    z: 66
+    yaw: 209.14165
+    pitch: 11.24628
+    world: world_nether
+  minanether:
+    x: 111
+    y: 15
+    z: 65
+    yaw: -269.70172
+    pitch: 13.452183
+    world: world_nether
+  mending:
+    x: 4874
+    y: 70
+    z: 5761
+    yaw: -106.9212
+    pitch: 10.716302
+    world: world

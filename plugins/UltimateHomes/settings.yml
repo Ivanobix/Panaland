@@ -1,0 +1,7 @@
+warmup: 3
+messagePrefix: true
+respawnAtHome: true
+confirmUnsafeTeleports: true
+blockCreatingUnsafeSethomes: true
+considerMidAirUnsafe: true
+kcgFeatureJoinMessage: true
