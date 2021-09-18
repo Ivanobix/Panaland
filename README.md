@@ -3,7 +3,7 @@ Servidor de Minecraft Survival 1.16.5 con plugins y totalmente configurado.
 
 ## Descripción general
 
-Panaland se trata de un servidor de Minecraft (1.16.5) orientado a la modalidad survival (preferentemente con amigos) y por tanto no está diseñado para soportar grandes cantidades de jugadores conectados simultáneamente (20 personas sería lo ideal).
+Panaland se trata de un servidor de Minecraft (1.16.5) orientado a la modalidad survival (multijugador) y por tanto no está diseñado para soportar grandes cantidades de jugadores conectados simultáneamente (20 personas sería lo ideal).
 
 Se ha buscado obtener el máximo rendimiento posible para que el servidor pueda ser hosteado desde dispositivos con bajos recursos, como una Raspberry Pi 4 Model B de 4GB.
 Para esto se han ajustado cuidadosamente todos los archivos de configuración y se han instalado determinados plugins orientados a la mejora del rendimiento.
