@@ -1,0 +1,110 @@
+{
+  "primordial:civilization": {
+    "criteria": {
+      "world": "2020-02-16 16:35:12 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2020-02-16 18:03:09 -0800"
+    },
+    "done": true
+  },
+  "primordial:firteid": {
+    "criteria": {
+      "firteid": "2020-02-16 17:29:37 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2020-02-16 17:00:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2020-02-16 17:00:23 -0800"
+    },
+    "done": true
+  },
+  "primordial:discoveries": {
+    "criteria": {
+      "world": "2020-02-16 16:35:12 -0800"
+    },
+    "done": true
+  },
+  "primordial:terminus": {
+    "criteria": {
+      "terminus": "2020-02-16 17:11:26 -0800"
+    },
+    "done": true
+  },
+  "primordial:mythbreaker": {
+    "criteria": {
+      "world": "2020-02-16 16:35:12 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2020-02-16 17:00:23 -0800"
+    },
+    "done": true
+  },
+  "primordial:root": {
+    "criteria": {
+      "initialize": "2020-02-16 16:35:12 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2020-02-16 17:00:23 -0800"
+    },
+    "done": true
+  },
+  "primordial:hole": {
+    "criteria": {
+      "hole": "2020-02-16 17:41:24 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2020-02-16 16:58:47 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2020-02-16 17:00:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2020-02-16 17:00:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-02-16 16:37:17 -0800",
+      "minecraft:mushroom_fields": "2020-02-16 17:13:28 -0800",
+      "minecraft:jungle": "2020-02-16 17:29:11 -0800",
+      "minecraft:warm_ocean": "2020-02-16 17:42:11 -0800",
+      "minecraft:dark_forest": "2020-02-16 16:36:04 -0800",
+      "minecraft:plains": "2020-02-16 16:35:12 -0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2020-02-16 17:38:14 -0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2227
+}
