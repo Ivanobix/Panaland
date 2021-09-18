@@ -24,6 +24,9 @@ Dado que ya todo se encuentra configurado, solo tendremos que clonar este reposi
 
 Una vez hayamos hecho esto, el servidor comenzará a cargar todo lo necesario, lo cual llevará un par de minutos o más dependiendo de las características del equipo que lo ejecute, pero ojo, no existe ningún mensaje que indique que el servidor ya se ha terminado de cargar, así que debes guiarte en función de si siguen apareciendo nuevos mensajes en el terminal.
 
+Importante:
+Si quieres detener el servidor, es muy importante que no cierres la consola directamente, dado que esto podría romper el servidor, por lo que deberás utilizar el comando "stop" directamente desde la consola. De esta forma todos los datos se guardarán y el servidor se cerrará de forma segura.
+
 ## Manual de uso
 
 Una vez el servidor esté iniciado no es necesario hacer nada más, ya es totalmente jugable, pero si te sientes con ganas de investigar, verás que existen un millón de posibilidades para mejorar tu servidor, así que te animo a que no te conformes con lo que acabas de conseguir y sigas añadiéndole cosas, quién sabe si a la larga tu pequeño servidor se convertirá en un referente dentro del mundo de Minecraft.
@@ -34,7 +37,7 @@ Para conectarte desde tu red local basta con añadir el servidor en Minecraft in
 
 Por desgracia esto varía mucho de unos routers a otros, así que no puedo dejar una guía sobre como hacerlo, pero existen miles de tutoriales en YouTube que te lo explican paso a paso, así que no te preocupes, suele ser extremadamente sencillo.
 
-## Ajuste de rendimiento
+### Ajuste de rendimiento
 
 Por defecto el servidor está configurado para que consuma 2GB de RAM en la máquina que lo ejecuta, pero si tu equipo es lo suficientemente potente, puedes aumentar dicha cifra, lo que permitirá que tu servidor funcione aún mejor.
 
@@ -43,6 +46,12 @@ Para cambiar esto basta con acceder al archivo de arranque (run.cmd en el caso d
   - Xms2G (RAM mínima)
 
 Ah, y no te recomiendo que pongas menos de 2GB ni que el servidor consuma más del 50% de tu memoria RAM disponible.
+
+### Actualizaciones
+
+Durante el inicio del servidor es probable que aparezcan mensajes de que existen actualizaciones disponibles para determinados plugins, esto es algo totalmente normal.
+
+Me he asegurado de que todos los que están incluidos actualmente se tratan de versiones estables y no debería ser necesario actualizar ninguno, pero si aún así quieres tener lo último cada vez que salga una actualización, puedes actualizarlos siguiendo las instrucciones que te indican en la propia consola, aunque eso sí, asegurate de detener antes el servidor y hacer una copia de seguridad por si algo saliese mal.
 
 ## Información adicional:
 
