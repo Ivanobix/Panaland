@@ -35,7 +35,7 @@ Una vez el servidor esté iniciado no es necesario hacer nada más, ya es totalm
 
 Para conectarte desde tu red local basta con añadir el servidor en Minecraft indicando que la dirección es "localhost", pero si lo que quieres es que tus amigos puedan conectarse desde su casa, necesitarás configurar tu router para que apunte a tu servidor.
 
-Por desgracia esto varía mucho de unos routers a otros, así que no puedo dejar una guía sobre como hacerlo, pero existen miles de tutoriales en YouTube que te lo explican paso a paso, así que no te preocupes, suele ser extremadamente sencillo.
+Por desgracia esto varía mucho de unos routers a otros, así que no puedo dejar una guía sobre cómo hacerlo, pero existen miles de tutoriales en YouTube que te lo explican paso a paso, así que no te preocupes, suele ser extremadamente sencillo.
 
 ### Ajuste de rendimiento
 
