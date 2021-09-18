@@ -6,6 +6,7 @@ Servidor de Minecraft Survival 1.16.5 con plugins y totalmente configurado.
 Panaland se trata de un servidor de Minecraft (1.16.5) orientado a la modalidad survival (multijugador) y por tanto no está diseñado para soportar grandes cantidades de jugadores conectados simultáneamente (20 personas sería lo ideal).
 
 Se ha buscado obtener el máximo rendimiento posible para que el servidor pueda ser hosteado desde dispositivos con bajos recursos, como una Raspberry Pi 4 Model B de 4GB.
+
 Para esto se han ajustado cuidadosamente todos los archivos de configuración y se han instalado determinados plugins orientados a la mejora del rendimiento.
 También se han incluido plugins de control de usuarios, economía, mochilas, mobs personalizados, etc y un mapa custom inmenso, permitiendo una experiencia más completa e infinitamente más atractiva que la que ofrece el juego base.
 
@@ -30,6 +31,7 @@ Una vez el servidor esté iniciado no es necesario hacer nada más, ya es totalm
 ### Como conectarte
 
 Para conectarte desde tu red local basta con añadir el servidor en Minecraft indicando que la dirección es "localhost", pero si lo que quieres es que tus amigos puedan conectarse desde su casa, necesitarás configurar tu router para que apunte a tu servidor.
+
 Por desgracia esto varía mucho de unos routers a otros, así que no puedo dejar una guía sobre como hacerlo, pero existen miles de tutoriales en YouTube que te lo explican paso a paso, así que no te preocupes, suele ser extremadamente sencillo.
 
 ## Ajuste de rendimiento
@@ -45,6 +47,7 @@ Ah, y no te recomiendo que pongas menos de 2GB ni que el servidor consuma más d
 ## Información adicional:
 
 En caso de que cualquier persona desee eliminar algún plugin así como modificar los mapas, basta con eliminarlos y sustituirlos directamente, sin más complicaciones.
+
 De igual forma, el resto de configuraciones son totalmente personalizables, por lo que sentiros libres de experimentar cosas nuevas.
 
 ## Ayuda
