@@ -61,11 +61,11 @@ De igual forma, el resto de configuraciones son totalmente personalizables, por 
 
 ## Ayuda
 
-[Ayuda](https://github.com/Ivanobix/Panaland/issues).
+[Ayuda](https://github.com/Ivanobix/Panaland/issues)
 
 ## Créditos
 
-[Mapa Custom Overworld](https://www.planetminecraft.com/project/drehmal-v2-prim-rdial-12k-x-12k-survival-adventure-map/).
+[Mapa Custom Overworld](https://www.planetminecraft.com/project/drehmal-v2-prim-rdial-12k-x-12k-survival-adventure-map/)
 
 ## Licencia
 
