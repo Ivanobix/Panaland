@@ -35,9 +35,10 @@ Por desgracia esto varía mucho de unos routers a otros, así que no puedo dejar
 ## Ajuste de rendimiento
 
 Por defecto el servidor está configurado para que consuma 2GB de RAM en la máquina que lo ejecuta, pero si tu equipo es lo suficientemente potente, puedes aumentar dicha cifra, lo que permitirá que tu servidor funcione aún mejor.
+
 Para cambiar esto basta con acceder al archivo de arranque (run.cmd en el caso de Windows o run.sh en Linux) y modificar las propiedades:
-  -Xmx2G (RAM máxima)
-  -Xms2G (RAM mínima)
+  - Xmx2G (RAM máxima)
+  - Xms2G (RAM mínima)
 
 Ah, y no te recomiendo que pongas menos de 2GB ni que el servidor consuma más del 50% de tu memoria RAM disponible.
 
