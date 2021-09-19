@@ -3,7 +3,7 @@
 # |                                                                            | #
 # |                    Discord: https://discord.gg/Bh2EZfB                     | #
 # |            Source Code: https://github.com/Archy-X/AureliumSkills          | #
-# | Config Guide: https://github.com/Archy-X/AureliumSkills/wiki/Configuration | #
+# |      Config Guide: https://wiki.aurelium.dev/skills/config/main-config     | #
 # +----------------------------------------------------------------------------+ #
 # Plugin made by Archy
 # 
@@ -128,6 +128,7 @@ modifier:
     check-period: 3
     enable-off-hand: true
 requirement:
+  enabled: true
   item:
     prevent-tool-use: true
     prevent-weapon-use: true
