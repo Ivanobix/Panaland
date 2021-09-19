@@ -1,5 +1,5 @@
 # Panaland
-Servidor de Minecraft Survival 1.16.5 Custom (Plugin + Mapas) Configurado.
+Servidor de Minecraft Survival 1.16.5 Custom (Plugins + Mapas) Configurado.
 
 ## Descripción general
 
