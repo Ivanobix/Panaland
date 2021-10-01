@@ -73,6 +73,12 @@ De igual forma, el resto de configuraciones son totalmente personalizables, por 
 
 ----
 
+## Mapa
+
+![mapa](https://user-images.githubusercontent.com/56084434/135663307-3aaa903e-c9fe-4cce-91aa-783947b5a691.png)
+
+----
+
 ## Ayuda
 
 [Ayuda](https://github.com/Ivanobix/Panaland/issues)
