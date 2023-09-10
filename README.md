@@ -1,98 +1,70 @@
-# Panaland
-Servidor de Minecraft Survival 1.16.5 Custom (Plugins + Mapas) Configurado.
-
-## Descripción general
-
-Panaland se trata de un servidor de Minecraft Custom (1.16.5) orientado a la modalidad survival (multijugador) y por tanto no está diseñado para soportar grandes cantidades de jugadores conectados simultáneamente (20 personas sería lo ideal).
-
-Se ha buscado obtener el máximo rendimiento posible para que el servidor pueda ser hosteado desde dispositivos con bajos recursos, como una Raspberry Pi 4 Model B de 4GB.
-
-Para esto se han ajustado cuidadosamente todos los archivos de configuración y se han instalado determinados plugins orientados a la mejora del rendimiento.
-También se han incluido plugins de control de usuarios, economía, mochilas, mobs personalizados, etc y un mapa custom inmenso, permitiendo una experiencia más completa e infinitamente más atractiva que la que ofrece el juego base.
-
-----
-
-## Instalación
-
-Dado que el servidor ha sido configurado con la versión 11 de Java, se requiere como mínimo que dicha versión esté instalada el equipo que hará las veces de servidor, pudiendo ser sustituida por una versión más reciente, como la 1.16, pero no se asegura su compatibilidad.
-
-## Puesta en marcha
-
-Dado que ya todo se encuentra configurado, solo tendremos que clonar este repositorio y ejecutar el servidor:
-  - Windows:
-      - Nos dirigimos al directorio donde hayamos clonado el repositorio y ejecutar el archivo "run.cmd" como administrador.
-  - Linux:
-      - Nos dirigimos al directorio donde hayamos clonado el repositorio y mediante la consola ejecutamos el archivo run.sh (Mediante el comando "sudo bash run.sh")
-
-Una vez hayamos hecho esto, el servidor comenzará a cargar todo lo necesario, lo cual llevará un par de minutos o más dependiendo de las características del equipo que lo ejecute, pero ojo, no existe ningún mensaje que indique que el servidor ya se ha terminado de cargar, así que debes guiarte en función de si siguen apareciendo nuevos mensajes en el terminal.
-
-Importante:
-Si quieres detener el servidor, es muy importante que no cierres la consola directamente, dado que esto podría romper el servidor, por lo que deberás utilizar el comando "stop" directamente desde la consola. De esta forma todos los datos se guardarán y el servidor se cerrará de forma segura.
-
-----
-
-## Manual de uso
-
-Una vez el servidor esté iniciado no es necesario hacer nada más, ya es totalmente jugable, pero si te sientes con ganas de investigar, verás que existen un millón de posibilidades para mejorar tu servidor, así que te animo a que no te conformes con lo que acabas de conseguir y sigas añadiéndole cosas, quién sabe si a la larga tu pequeño servidor se convertirá en un referente dentro del mundo de Minecraft.
+Here's an improved README with the changes you requested:
 
 ---
 
-### Como conectarte
+# 🎮 Panaland Minecraft Server 🌍
+An optimized Minecraft Survival 1.16.5 server with custom plugins and maps.
 
-Para conectarte desde tu red local basta con añadir el servidor en Minecraft indicando que la dirección es "localhost", pero si lo que quieres es que tus amigos puedan conectarse desde su casa, necesitarás configurar tu router para que apunte a tu servidor.
+## 📜 Overview
+Panaland is a custom Minecraft server (version 1.16.5) tailored for survival multiplayer gameplay. It's designed for intimate player experiences, ideally accommodating up to 20 players at once.
 
-Por desgracia esto varía mucho de unos routers a otros, así que no puedo dejar una guía sobre cómo hacerlo, pero existen miles de tutoriales en YouTube que te lo explican paso a paso, así que no te preocupes, suele ser extremadamente sencillo.
+The server is optimized to run even on low-resource devices like the **Raspberry Pi 4 Model B (4GB RAM)**. Here's what we've done to ensure a smooth experience:
+- ⚙ Carefully tuned configuration files.
+- 🚀 Plugins focused on enhancing server performance.
+- 🎒 Features including user control, economy, backpacks, customized mobs, and more.
+- 🗺 A vast custom map that offers an enriched gameplay experience beyond the base game.
 
----
+## 🚀 Getting Started
 
-### Ajuste de rendimiento
+### 🔧 Installation
+The server requires at least **Java Version 11**. You may try using a newer version like 1.16, but compatibility isn't guaranteed.
 
-Por defecto el servidor está configurado para que consuma 2GB de RAM en la máquina que lo ejecuta, pero si tu equipo es lo suficientemente potente, puedes aumentar dicha cifra, lo que permitirá que tu servidor funcione aún mejor.
+### 🎮 Launching the Server
+Everything's set up! Just clone this repo and launch:
+- **Windows**: Navigate to the repo's directory and run "run.cmd" as administrator.
+- **Linux**: Navigate to the repo's directory, then execute the "run.sh" file using the command `sudo bash run.sh`.
 
-Para cambiar esto basta con acceder al archivo de arranque (run.cmd en el caso de Windows o run.sh en Linux) y modificar las propiedades:
-  - Xmx2G (RAM máxima)
-  - Xms2G (RAM mínima)
+After you initiate the server, it might take a few minutes to load, depending on your device. **Note**: There's no message indicating the server's completion of loading, so rely on the terminal messages as a guide.
 
-Ah, y no te recomiendo que pongas menos de 2GB ni que el servidor consuma más del 50% de tu memoria RAM disponible.
+⚠ **Important**: To shut down the server safely, use the "stop" command within the console. Don't close the console directly as this may damage the server.
 
----
+## 📘 User Guide
 
-### Actualizaciones
+The server is ready to play right out of the box! But if you're feeling adventurous:
+- 🛠 Dive in and see the myriad of ways to customize and enhance your server further.
+- 💡 Who knows? Your server might just become the next big thing in the Minecraft world!
 
-Durante el inicio del servidor es probable que aparezcan mensajes de que existen actualizaciones disponibles para determinados plugins, esto es algo totalmente normal.
+### 🖥️ How to Connect
+- Local Network: Add the server in Minecraft using the address "localhost".
+- Friends' Access: You'll need to configure your router to point to your server. This varies across routers, but many YouTube tutorials can guide you.
 
-Me he asegurado de que todos los que están incluidos actualmente se tratan de versiones estables y no debería ser necesario actualizar ninguno, pero si aún así quieres tener lo último cada vez que salga una actualización, puedes actualizarlos siguiendo las instrucciones que te indican en la propia consola, aunque eso sí, asegurate de detener antes el servidor y hacer una copia de seguridad por si algo saliese mal.
+### 🎚 Performance Tuning
+By default, the server consumes 2GB of RAM. If your device can handle it, you might want to allocate more. Adjust the following properties in the boot file (`run.cmd` for Windows or `run.sh` for Linux):
+- Xmx2G (Max RAM)
+- Xms2G (Starting RAM)
 
-----
+💡 Tip: Don't go below 2GB or allow the server to consume more than 50% of your available RAM.
 
-## Información adicional:
+### 🔄 Updates
+It's normal for update messages to appear for certain plugins during server startup. I've ensured that all included plugins are stable versions, but if you're keen to stay updated, follow the console's instructions. Remember to back up first!
 
-En caso de que cualquier persona desee eliminar algún plugin así como modificar los mapas, basta con eliminarlos y sustituirlos directamente, sin más complicaciones.
+## 🔍 Additional Information:
+- 🛠 Modify or remove plugins and maps simply by replacing or deleting them.
+- ⚙ All configurations are customizable. Feel free to experiment!
 
-De igual forma, el resto de configuraciones son totalmente personalizables, por lo que sentiros libres de experimentar cosas nuevas.
-
-----
-
-## Mapa
-
+## 🗺 Map Preview
 ![mapa](https://user-images.githubusercontent.com/56084434/135663307-3aaa903e-c9fe-4cce-91aa-783947b5a691.png)
 
-----
+## 🆘 Need Help?
+[Open an Issue](https://github.com/Ivanobix/Panaland/issues)
 
-## Ayuda
+## 👏 Credits
+- [Custom Overworld Map](https://www.planetminecraft.com/project/drehmal-v2-prim-rdial-12k-x-12k-survival-adventure-map/)
 
-[Ayuda](https://github.com/Ivanobix/Panaland/issues)
+## 📜 License
+- [License Summary](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
+- [Full License](https://creativecommons.org/licenses/by-nc/4.0/legalcode.es)
 
-----
+---
 
-## Créditos
-
-[Mapa Custom Overworld](https://www.planetminecraft.com/project/drehmal-v2-prim-rdial-12k-x-12k-survival-adventure-map/)
-
-----
-
-## Licencia
-
-[Resumen](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
-
-[Texto Legal](https://creativecommons.org/licenses/by-nc/4.0/legalcode.es)
+I hope this improved README meets your expectations!
