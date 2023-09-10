@@ -1,7 +1,3 @@
-Here's an improved README with the changes you requested:
-
----
-
 # 🎮 Panaland Minecraft Server 🌍
 An optimized Minecraft Survival 1.16.5 server with custom plugins and maps.
 
@@ -64,7 +60,3 @@ It's normal for update messages to appear for certain plugins during server star
 ## 📜 License
 - [License Summary](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
 - [Full License](https://creativecommons.org/licenses/by-nc/4.0/legalcode.es)
-
----
-
-I hope this improved README meets your expectations!
