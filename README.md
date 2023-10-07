@@ -1,6 +1,8 @@
 # 🎮 Panaland Minecraft Server 🌍
 An optimized Minecraft Survival 1.16.5 server with custom plugins and maps.
 
+![PanalandWallpaper](https://github.com/Ivanobix/Panaland/assets/56084434/eac933f4-0bb1-4fcd-accd-d07a294245db)
+
 ## 📜 Overview
 Panaland is a custom Minecraft server (version 1.16.5) tailored for survival multiplayer gameplay. It's designed for intimate player experiences, ideally accommodating up to 20 players at once.
 
